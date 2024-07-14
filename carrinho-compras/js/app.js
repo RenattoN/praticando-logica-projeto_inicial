@@ -1,7 +1,4 @@
 
-
-    let total;
-    limpar();
 function adicionar(){
 
     let produto = document.getElementById('produto').value;
@@ -26,3 +23,5 @@ function limpar(){
     document.getElementById('lista-produtos').innerHTML='';
     document.getElementById('valor-total').textContent='R$ 0';
 }
+let total;
+limpar();
